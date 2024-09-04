@@ -11,3 +11,12 @@ aula 3
 print("Hello, World!")
 
 file:///C:/Users/202051461081/Desktop/printttt.PNG
+
+
+// JavaScript: Imprime "Hello, World!" no console
+console.log("Hello, World!");
+## Online R compiler to run R program online
+## Print "Try programiz.pro" message
+
+message <-"Try programiz.pro"
+print(message)
