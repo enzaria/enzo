@@ -6,3 +6,8 @@ O principal objetivo dos formatos abertos é garantir o acesso aos dados a longo
 Os formatos proprietários são, na verdade, controlados e definidos por interesses privados.
 Com o formato proprietário, o usuário corre o risco de perder todas as informações contidas no arquivo caso o software pare de funcionar ou fosse descontinuado, já que não teria outro sistema capaz de processá-las. Todas as informações coletadas nos arquivos públicos (órgãos, instituições, administração, etc.) se tornariam ilegíveis e inutilizáveis em muito pouco tempo.
 Cada tipo de formato tem seus pontos negativos e seus pontos positivos 
+aula 3
+# Python: Imprime "Hello, World!" na tela
+print("Hello, World!")
+
+file:///C:/Users/202051461081/Desktop/printttt.PNG
