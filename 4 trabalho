@@ -1,0 +1,23 @@
+Aqui estão dois exemplos em Python, um para uma estrutura de repetição e outro para uma estrutura de tomada de decisão.
+
+1. Estrutura de Repetição (Laço for):
+Este exemplo percorre uma lista de números e imprime cada um deles.
+
+# Estrutura de repetição utilizando for
+
+numeros = [1, 2, 3, 4, 5]
+
+for numero in numeros:
+    print(f"Número: {numero}")
+Estrutura de Tomada de Decisão (Condicional if):
+Este exemplo verifica se um número fornecido pelo usuário é par ou ímpar
+# Estrutura de tomada de decisão utilizando if-else
+numero = int(input("Digite um número: "))
+
+if numero % 2 == 0:
+    print(f"O número {numero} é par.")
+else:
+    print(f"O número {numero} é ímpar.")
+Possível saída:
+Se o usuário digitar 4:
+O número 4 é par.
