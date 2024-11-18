@@ -1,0 +1,11 @@
+def criar_lista_compras():
+    entrada = input("Digite os itens da lista de compras, separados por vírgula: ")
+    
+    itens = [item.strip() for item in entrada.split(',')]
+    
+    print("\nItens da lista de compras:")
+    for item in itens:
+        print(item)
+
+if __name__ == "__main__":
+    criar_lista_compras()
