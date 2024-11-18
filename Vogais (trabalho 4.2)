@@ -1,0 +1,33 @@
+def bubble_sort(vogais):
+    n = len(vogais)
+    for i in range(n):
+        for j in range(0, n - i - 1):
+            if vogais[j] > vogais[j + 1]:
+                vogais[j], vogais[j + 1] = vogais[j + 1], vogais[j]
+
+def extrair_vogais(palavra):
+    vogais = "aeiouAEIOU"
+    resultado = [char for char in palavra if char in vogais]
+    return resultado
+
+def main():
+    palavra = input("Digite uma palavra ou frase: ").strip()  # Adiciona strip() para limpar espaços extras
+    if not palavra:
+        print("Nenhuma entrada fornecida.")
+        return
+    
+    print(f"Entrada fornecida: {palavra}")  # Depuração: mostra a entrada
+    vogais = extrair_vogais(palavra)
+    
+    if vogais:
+        print(f"Vogais extraídas: {vogais}")  # Depuração: mostra as vogais extraídas
+        bubble_sort(vogais)
+        print("Vogais ordenadas:", "".join(vogais))
+    else:
+        print("Nenhuma vogal encontrada.")
+
+if __name__ == "__main__":
+    main()
+
+
+#
