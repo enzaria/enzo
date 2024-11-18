@@ -1,0 +1,9 @@
+# Estrutura de tomada de decisão
+nota = float(input("Digite a nota do aluno (0 a 10): "))
+
+if nota >= 7:
+    print("Aprovado!")
+elif 5 <= nota < 7:
+    print("Em recuperação.")
+else:
+    print("Reprovado.")
