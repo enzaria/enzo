@@ -1,0 +1,27 @@
+# Bubble sort -> Python
+
+def f(x):
+    
+  # loop to access each element
+  for i in range(len(x)):
+ # loop to compare the elements
+    for j in range(0, len(x) - i - 1):
+
+      # compare two adjacent elements
+      # change > to < to sort in descending order
+      if x[j] > x[j + 1]:
+
+        # swapping elements if elements
+        # are not in the intended order
+        y = x[j]
+        x[j] = x[j+1]
+        x[j+1] = y
+
+data = [0, 4, 20, 10, -23, 120]
+
+f(data)
+
+print('Sorted x in Ascending Order:')
+print(data)
+
+#
