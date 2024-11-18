@@ -1,0 +1,10 @@
+def NIC(): 
+    frase = input("Escreva seu nome, sua idade e sua cidade natal:")
+    if not frase:
+        print("Por favor, digite sua resposta")
+        return
+    
+    print(f"{frase}", sep = ",", end = "!")
+
+if __name__ == "__main__":
+    NIC()
