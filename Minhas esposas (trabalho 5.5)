@@ -1,0 +1,18 @@
+def coletar_nomes():
+    nomes = []
+    
+    while True:
+        nome = input("Digite nomes de garotas para transformar em esposas (digite 'azulzinha' se já estiver satisfeito): ")
+        
+        if nome.lower() == 'azulzinha':
+            break
+        
+        nomes.append(nome)
+    
+    print("\nSuas novas esposas são:")
+    for nome in nomes:
+        print(nome)
+
+# Chama a função para executar
+if __name__ == "__main__":
+    coletar_nomes()
